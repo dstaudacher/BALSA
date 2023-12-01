@@ -1,0 +1,20 @@
+
+RESULT
+
+```
+         SR   R1,R2
+         ST   R1,DIFF
+```
+Afterwards the quotient will be in Register R0 and the remainder will be in Register R1.  
+           
+PROMPT
+
+Write code in IBM BAL Assembly to detect a 32-bit zero divisor before Divide Register instruction.
+Assume dividend value is in even-odd register pair R0 and R1.
+Assume divisor value is in register R15.
+
+Your answer should be brief and in markdown format using a code section using this format:
+
+```
+put code here
+```
